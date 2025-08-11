@@ -4676,7 +4676,6 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -4689,7 +4688,6 @@ body {
     transform: scale(1.1);
 }
 
-/* تأثير الدوائر الإلكترونية */
 .circuit-overlay {
     position: absolute;
     top: 0;
@@ -4722,7 +4720,6 @@ body {
     }
 }
 
-/* تأثير السايبر */
 .cyber-overlay {
     position: absolute;
     top: 0;
@@ -4753,7 +4750,6 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-/* تأثير الخلل */
 .glitch-overlay {
     position: absolute;
     top: 0;
@@ -5059,7 +5055,6 @@ body {
     transform: translateX(-5px);
 }
 
-/* قسم اتصل بنا */
 .contact {
     padding: 5rem 0;
     background-color: rgb(0, 0, 0);
@@ -5091,7 +5086,6 @@ body {
     outline: none;
 }
 
-/* تحسين زر الإرسال في النموذج */
 
 .cyber-form input[type="tel"] {
     background: rgb(0, 0, 0);
@@ -5364,7 +5358,6 @@ body {
     font-size: 18px;
 }
 
-/* تحسين التجاوب للموبايل */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -5465,7 +5458,6 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -5485,14 +5477,12 @@ body {
   z-index: -1;
 }
 
-/* إصلاح فراغات الجوانب بدون تخريب الموقع */
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-/* الخلفية المتحركة تمتد على كامل الشاشة */
 .gif-background {
   position: fixed;
   top: 0;
