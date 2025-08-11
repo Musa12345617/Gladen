@@ -1,5 +1,4 @@
 
-/* تم تعديل الألوان لتكون خلفيات سوداء ونصوص بيضاء بالكامل */
 
 :root {
   --primary-color: #ffffff;
@@ -14,7 +13,6 @@
   --transition-speed: 0.3s;
 }
 
-/* استبدال جميع الخلفيات التي تحتوي على أزرق إلى الأسود */
 
 .navbar {
   background: linear-gradient(to bottom, #000000, #000000);
@@ -47,7 +45,6 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* تغيير ألوان الأزرار والمؤثرات */
 
 .cta-button,
 .submit-button,
@@ -65,7 +62,6 @@
   color: #ffffff;
 }
 
-/* تغيير تدرجات النصوص الزرقاء داخل العناصر */
 
 .stat-icon,
 .stat-item h3,
@@ -96,7 +92,6 @@
   border: 2px solid #ffffff;
 }
 
-/* تغيير خطوط الروابط */
 
 .nav-links a,
 .footer-logo h3,
@@ -106,13 +101,11 @@
   color: #ffffff;
 }
 
-/* التأكد من أن كل النصوص والخلفيات أصبحت متوافقة مع الثيم الأسود */
 body {
   background-color: #000000;
   color: #ffffff;
 }
 
-/* أي تأثيرات إضافية مثل glowing أو glitch الآن تعتمد على الأبيض */
 .glitch,
 .cyber-text,
 .section-subtitle,
@@ -124,7 +117,6 @@ body {
   text-shadow: var(--cyber-glow);
 }
 
-/* تعيين الأزرار والخلفيات بشكل متسق */
 .project-overlay,
 .social-links a::before,
 .submit-button::before {
@@ -150,7 +142,6 @@ body {
     }
 
 
-/* Additional Mobile Optimizations */
 @media screen and (max-width: 480px) {
     .hero .glitch {
         font-size: 1.8rem;
@@ -210,7 +201,6 @@ body {
     overflow-x: hidden;
 }
 
-/* خلفية الفيديو */
 .video-background {
     position: fixed;
     top: 0;
@@ -267,7 +257,6 @@ body {
     z-index: 3;
 }
 
-/* تأثير Glitch */
 .glitch-container {
     margin-bottom: 2rem;
 }
@@ -327,7 +316,6 @@ body {
     }
 }
 
-/* القائمة العلوية */
 .navbar {
     background: linear-gradient(to bottom, var(--dark-bg), rgba(0, 0, 0, 0));
 
@@ -392,7 +380,6 @@ body {
     font-size: 1.5rem;
 }
 
-/* القسم الرئيسي */
 .hero {
     background: rgba(0, 0, 0, 0.5);
     min-height: 100vh;
@@ -430,7 +417,6 @@ body {
     50% { opacity: 0; }
 }
 
-/* تحسين زر تواصل معنا */
 .cta-button {
     display: inline-flex;
     align-items: center;
@@ -492,7 +478,7 @@ body {
     transform: translateX(-5px) rotate(360deg);
 }
 
-/* قسم من نحن */
+ قسم من نحن */
 .about,
 .services,
 .projects {
@@ -598,7 +584,7 @@ body {
     box-shadow: var(--cyber-glow);
 }
 
-/* تحسين كروت الفريق */
+ تحسين كروت الفريق */
 .team-showcase {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -683,7 +669,7 @@ body {
     transform: scale(1.1);
 }
 
-/* تحسين التجاوب */
+ تحسين التجاوب */
 @media (max-width: 1200px) {
     .team-showcase {
         grid-template-columns: repeat(3, 1fr);
@@ -706,7 +692,7 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
+ تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -719,7 +705,7 @@ body {
     transform: scale(1.1);
 }
 
-/* تأثير الدوائر الإلكترونية */
+ تأثير الدوائر الإلكترونية */
 .circuit-overlay {
     position: absolute;
     top: 0;
@@ -752,7 +738,7 @@ body {
     }
 }
 
-/* تأثير السايبر */
+ تأثير السايبر */
 .cyber-overlay {
     position: absolute;
     top: 0;
@@ -783,7 +769,7 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-/* تأثير الخلل */
+ تأثير الخلل */
 .glitch-overlay {
     position: absolute;
     top: 0;
@@ -816,14 +802,14 @@ body {
     100% { transform: translate(0); }
 }
 
-/* تفعيل التأثيرات عند التحويم */
+ تفعيل التأثيرات عند التحويم */
 .team-member-card:hover .circuit-overlay,
 .team-member-card:hover .cyber-overlay,
 .team-member-card:hover .glitch-overlay {
     opacity: 1;
 }
 
-/* تأثيرات الخدمات */
+ تأثيرات الخدمات */
 
 
 .services .container {
@@ -963,7 +949,7 @@ body {
     }
 }
 
-/* قسم المشارية */
+ قسم المشارية */
 
 
 .projects .container {
@@ -1089,7 +1075,7 @@ body {
     transform: translateX(-5px);
 }
 
-/* قسم اتصل بنا */
+ قسم اتصل بنا */
 .contact {
     padding: 5rem 0;
     background-color: rgba(0, 0, 0, 0.7);
@@ -1121,7 +1107,7 @@ body {
     outline: none;
 }
 
-/* تحسين زر الإرسال في النموذج */
+ تحسين زر الإرسال في النموذج */
 
 .cyber-form input[type="tel"] {
     background: rgba(2, 16, 33, 0.7);
@@ -1265,7 +1251,7 @@ body {
     border-top: 1px solid rgb(0, 0, 0);
 }
 
-/* الفوتر */
+ الفوتر */
 .footer {
     background-color: rgb(0, 0, 0);
     color: var(--white);
@@ -1343,7 +1329,7 @@ body {
     transform: rotate(360deg);
 }
 
-/* تخصيص ألوان مواقع التواصل */
+ تخصيص ألوان مواقع التواصل */
 .social-links .fa-facebook {
     color: #000000;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -1399,7 +1385,7 @@ body {
     font-size: 18px;
 }
 
-/* تحسين التجاوب للموبايل */
+ تحسين التجاوب للموبايل */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -1500,7 +1486,7 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
+ تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -1513,7 +1499,7 @@ body {
     transform: scale(1.1);
 }
 
-/* تأثير الدوائر الإلكترونية */
+ تأثير الدوائر الإلكترونية */
 .circuit-overlay {
     position: absolute;
     top: 0;
@@ -1546,7 +1532,7 @@ body {
     }
 }
 
-/* تأثير السايبر */
+ تأثير السايبر */
 .cyber-overlay {
     position: absolute;
     top: 0;
@@ -1577,7 +1563,7 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-/* تأثير الخلل */
+ تأثير الخلل */
 .glitch-overlay {
     position: absolute;
     top: 0;
@@ -1610,14 +1596,14 @@ body {
     100% { transform: translate(0); }
 }
 
-/* تفعيل التأثيرات عند التحويم */
+ تفعيل التأثيرات عند التحويم */
 .team-member-card:hover .circuit-overlay,
 .team-member-card:hover .cyber-overlay,
 .team-member-card:hover .glitch-overlay {
     opacity: 1;
 }
 
-/* تأثيرات الخدمات */
+ تأثيرات الخدمات */
 
 
 .services .container {
@@ -1757,7 +1743,7 @@ body {
     }
 }
 
-/* قسم المشارية */
+ قسم المشارية */
 
 
 .projects .container {
@@ -1883,7 +1869,7 @@ body {
     transform: translateX(-5px);
 }
 
-/* قسم اتصل بنا */
+ قسم اتصل بنا */
 .contact {
     padding: 5rem 0;
     background-color: rgba(0, 0, 0, 0.7);
@@ -1915,7 +1901,7 @@ body {
     outline: none;
 }
 
-/* تحسين زر الإرسال في النموذج */
+ تحسين زر الإرسال في النموذج */
 
 .cyber-form input[type="tel"] {
     background: rgba(2, 16, 33, 0.7);
@@ -2059,7 +2045,7 @@ body {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* الفوتر */
+ الفوتر */
 .footer {
     background-color: rgba(2, 16, 33, 0.95);
     color: var(--white);
@@ -2137,7 +2123,7 @@ body {
     transform: rotate(360deg);
 }
 
-/* تخصيص ألوان مواقع التواصل */
+ تخصيص ألوان مواقع التواصل */
 .social-links .fa-facebook {
     color: #1877f2;
     text-shadow: 0 0 10px rgba(24, 119, 242, 0.5);
@@ -2193,7 +2179,7 @@ body {
     font-size: 18px;
 }
 
-/* تحسين التجاوب للموبايل */
+ تحسين التجاوب للموبايل */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -2294,7 +2280,7 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
+ تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -2307,7 +2293,7 @@ body {
     transform: scale(1.1);
 }
 
-/* تأثير الدوائر الإلكترونية */
+ تأثير الدوائر الإلكترونية */
 .circuit-overlay {
     position: absolute;
     top: 0;
@@ -2340,7 +2326,7 @@ body {
     }
 }
 
-/* تأثير السايبر */
+ تأثير السايبر */
 .cyber-overlay {
     position: absolute;
     top: 0;
@@ -2371,7 +2357,7 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-/* تأثير الخلل */
+ تأثير الخلل */
 .glitch-overlay {
     position: absolute;
     top: 0;
@@ -2404,14 +2390,14 @@ body {
     100% { transform: translate(0); }
 }
 
-/* تفعيل التأثيرات عند التحويم */
+ تفعيل التأثيرات عند التحويم */
 .team-member-card:hover .circuit-overlay,
 .team-member-card:hover .cyber-overlay,
 .team-member-card:hover .glitch-overlay {
     opacity: 1;
 }
 
-/* تأثيرات الخدمات */
+ تأثيرات الخدمات */
 
 
 .services .container {
@@ -2551,7 +2537,7 @@ body {
     }
 }
 
-/* قسم المشارية */
+ قسم المشارية */
 
 
 .projects .container {
@@ -2677,7 +2663,7 @@ body {
     transform: translateX(-5px);
 }
 
-/* قسم اتصل بنا */
+ قسم اتصل بنا */
 .contact {
     padding: 5rem 0;
     background-color: rgba(0, 0, 0, 0.7);
@@ -2709,7 +2695,7 @@ body {
     outline: none;
 }
 
-/* تحسين زر الإرسال في النموذج */
+ تحسين زر الإرسال في النموذج */
 
 .cyber-form input[type="tel"] {
     background: rgba(2, 16, 33, 0.7);
@@ -2853,7 +2839,7 @@ body {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* الفوتر */
+ الفوتر */
 .footer {
     background-color: rgb(0, 0, 0);
     color: var(--white);
@@ -2931,7 +2917,7 @@ body {
     transform: rotate(360deg);
 }
 
-/* تخصيص ألوان مواقع التواصل */
+ تخصيص ألوان مواقع التواصل */
 .social-links .fa-facebook {
     color: #1877f2;
     text-shadow: 0 0 10px rgba(24, 119, 242, 0.5);
@@ -2987,7 +2973,7 @@ body {
     font-size: 18px;
 }
 
-/* تحسين التجاوب للموبايل */
+ تحسين التجاوب للموبايل */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -3088,7 +3074,7 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
+ تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -3101,7 +3087,7 @@ body {
     transform: scale(1.1);
 }
 
-/* تأثير الدوائر الإلكترونية */
+ تأثير الدوائر الإلكترونية */
 .circuit-overlay {
     position: absolute;
     top: 0;
@@ -3134,7 +3120,7 @@ body {
     }
 }
 
-/* تأثير السايبر */
+ تأثير السايبر */
 .cyber-overlay {
     position: absolute;
     top: 0;
@@ -3165,7 +3151,7 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-/* تأثير الخلل */
+ تأثير الخلل */
 .glitch-overlay {
     position: absolute;
     top: 0;
@@ -3198,14 +3184,14 @@ body {
     100% { transform: translate(0); }
 }
 
-/* تفعيل التأثيرات عند التحويم */
+ تفعيل التأثيرات عند التحويم */
 .team-member-card:hover .circuit-overlay,
 .team-member-card:hover .cyber-overlay,
 .team-member-card:hover .glitch-overlay {
     opacity: 1;
 }
 
-/* تأثيرات الخدمات */
+ تأثيرات الخدمات */
 
 
 .services .container {
@@ -3345,7 +3331,7 @@ body {
     }
 }
 
-/* قسم المشارية */
+ قسم المشارية */
 
 
 .projects .container {
@@ -3471,7 +3457,7 @@ body {
     transform: translateX(-5px);
 }
 
-/* قسم اتصل بنا */
+ قسم اتصل بنا */
 .contact {
     padding: 5rem 0;
     background-color: rgba(0, 0, 0, 0.7);
@@ -3503,7 +3489,7 @@ body {
     outline: none;
 }
 
-/* تحسين زر الإرسال في النموذج */
+ تحسين زر الإرسال في النموذج */
 
 .cyber-form input[type="tel"] {
     background: rgba(2, 16, 33, 0.7);
@@ -3647,7 +3633,7 @@ body {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* الفوتر */
+ الفوتر */
 .footer {
     background-color: rgba(2, 16, 33, 0.95);
     color: var(--white);
@@ -3725,7 +3711,7 @@ body {
     transform: rotate(360deg);
 }
 
-/* تخصيص ألوان مواقع التواصل */
+ تخصيص ألوان مواقع التواصل */
 .social-links .fa-facebook {
     color: #1877f2;
     text-shadow: 0 0 10px rgba(24, 119, 242, 0.5);
@@ -3781,7 +3767,7 @@ body {
     font-size: 18px;
 }
 
-/* تحسين التجاوب للموبايل */
+ تحسين التجاوب للموبايل */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -3882,7 +3868,7 @@ body {
     }
 }
 
-/* تأثيرات التحويم */
+ تأثيرات التحويم */
 .team-member-card:hover,
 .service-card:hover,
 .project-card:hover {
@@ -3895,7 +3881,7 @@ body {
     transform: scale(1.1);
 }
 
-/* تأثير الدوائر الإلكترونية */
+ تأثير الدوائر الإلكترونية */
 .circuit-overlay {
     position: absolute;
     top: 0;
@@ -3928,7 +3914,7 @@ body {
     }
 }
 
-/* تأثير السايبر */
+ تأثير السايبر */
 .cyber-overlay {
     position: absolute;
     top: 0;
@@ -3959,7 +3945,7 @@ body {
     50% { transform: scale(1.2); opacity: 0.8; }
 }
 
-/* تأثير الخلل */
+ تأثير الخلل */
 .glitch-overlay {
     position: absolute;
     top: 0;
@@ -3992,14 +3978,14 @@ body {
     100% { transform: translate(0); }
 }
 
-/* تفعيل التأثيرات عند التحويم */
+ تفعيل التأثيرات عند التحويم */
 .team-member-card:hover .circuit-overlay,
 .team-member-card:hover .cyber-overlay,
 .team-member-card:hover .glitch-overlay {
     opacity: 1;
 }
 
-/* تأثيرات الخدمات */
+ تأثيرات الخدمات */
 
 
 .services .container {
@@ -4139,7 +4125,7 @@ body {
     }
 }
 
-/* قسم المشارية */
+ قسم المشارية */
 
 
 .projects .container {
@@ -4265,7 +4251,7 @@ body {
     transform: translateX(-5px);
 }
 
-/* قسم اتصل بنا */
+ قسم اتصل بنا */
 .contact {
     padding: 5rem 0;
     background-color: rgba(0, 0, 0, 0.7);
@@ -4297,7 +4283,7 @@ body {
     outline: none;
 }
 
-/* تحسين زر الإرسال في النموذج */
+ تحسين زر الإرسال في النموذج */
 
 .cyber-form input[type="tel"] {
     background: rgb(0, 0, 0);
@@ -4441,7 +4427,7 @@ body {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* الفوتر */
+ الفوتر */
 .footer {
     background-color: rgb(0, 0, 0);
     color: var(--white);
@@ -4519,7 +4505,7 @@ body {
     transform: rotate(360deg);
 }
 
-/* تخصيص ألوان مواقع التواصل */
+ تخصيص ألوان مواقع التواصل */
 .social-links .fa-facebook {
     color: #000000;
     text-shadow: 0 0 10px rgb(255, 255, 255);
@@ -4575,7 +4561,7 @@ body {
     font-size: 18px;
 }
 
-/* تحسين التجاوب للموبايل */
+ تحسين التجاوب للموبايل */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -4782,14 +4768,13 @@ body {
     100% { transform: translate(0); }
 }
 
-/* تفعيل التأثيرات عند التحويم */
+ تفعيل التأثيرات عند التحويم */
 .team-member-card:hover .circuit-overlay,
 .team-member-card:hover .cyber-overlay,
 .team-member-card:hover .glitch-overlay {
     opacity: 1;
 }
 
-/* تأثيرات الخدمات */
 
 
 .services .container {
@@ -4929,7 +4914,6 @@ body {
     }
 }
 
-/* قسم المشارية */
 
 
 .projects .container {
@@ -5229,7 +5213,7 @@ body {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-/* الفوتر */
+ الفوتر */
 .footer {
     background-color: rgb(0, 0, 0);
     color: var(--white);
@@ -5302,7 +5286,7 @@ body {
     transform: scale(1);
 }
 
-/* تخصيص ألوان مواقع التواصل */
+ تخصيص ألوان مواقع التواصل */
 .social-links .fa-facebook {
     color: #000000;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
