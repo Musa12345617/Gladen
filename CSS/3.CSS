@@ -1,0 +1,17 @@
+fetch("https://occx.netlify.app/scripts/style.css", {
+  "headers": {
+    "accept": "text/css,*/*;q=0.1",
+    "accept-language": "en-GB,en;q=0.9,ar-EG;q=0.8,ar;q=0.7,en-AU;q=0.6,en-US;q=0.5",
+    "if-none-match": "\"6744ee8836a5000e9785c532a54d5eb7-ssl-df\"",
+    "priority": "u=0",
+    "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "style",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin",
+    "Referer": "https://occx.netlify.app/"
+  },
+  "body": null,
+  "method": "GET"
+});

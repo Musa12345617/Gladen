@@ -1,0 +1,10 @@
+fetch("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap", {
+  "headers": {
+    "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://occx.netlify.app/"
+  },
+  "body": null,
+  "method": "GET"
+});
